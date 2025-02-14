@@ -13,6 +13,7 @@
 	 text-align: center;
 	 margin-bottom: 5%;
 	 font-size: 2em;
+	 width: 100%;
  }
  
  form {
@@ -21,6 +22,11 @@
 	 border-radius: 5px;
 	 width: 100%;
 	 max-width: 500px;
+ }
+ 
+ .center_fix {
+	 text-align: center;
+	 width: 100%;
  }
  
  #email {

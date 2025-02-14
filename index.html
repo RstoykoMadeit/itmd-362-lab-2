@@ -1,34 +1,36 @@
-<!DOCTYPE html>
-<html lang="en" class="nojs">
+ <!DOCTYPE html>
+ <html lang="en" class="nojs">
 
-<head>
+ <head>
   <title>Lab 2</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
-</head>
-<body>
-<h1>Lab 2 Form</h1>
- <form method="post" id="form">
-  <fieldset>
-	 <legend>My Users Data</legend>
+ </head>
+ <body>
+  <div class="center_fix">
+   <h1>Lab 2 Form</h1>
+  </div>
+  <form method="post" id="form">
+   <fieldset>
+	  <legend>My Users Data</legend>
+	  <div>
+	   <label for="email">Email Address:</label> 
+		 <input id="email" type="email" name="email_address" placeholder="example@gmail.com">
+	  </div>
+	  <div>
+	   <label for="phone">Phone Number:</label> 
+		 <input  id="phone" type="tel" name="phone_number" placeholder="1234567890">
+	  </div>
+	  <div>
+	   <label for="dob">Date of Birth:</label>
+		 <input id="dob" type="date" name="date_of_birth" placeholder="10/15/1998">
+	  </div>
+   </fieldset>
 	 <div>
-	  <label for="email">Email Address:</label> 
-		<input id="email" type="email" name="email_address" placeholder="example@gmail.com">
+	  <input id="submit_button" type="submit">
 	 </div>
-	 <div>
-	  <label for="phone">Phone Number:</label> 
-		<input  id="phone" type="tel" name="phone_number" placeholder="1234567890">
-	 </div>
-	 <div>
-	  <label for="dob">Date of Birth:</label>
-		<input id="dob" type="date" name="date_of_birth" placeholder="10/15/1998">
-	 </div>
-  </fieldset>
-	<div>
-	 <input id="submit_button" type="submit">
-	</div>
- </form>
-</body>
-</html>
+  </form>
+ </body>
+ </html>
