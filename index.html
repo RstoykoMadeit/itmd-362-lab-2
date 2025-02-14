@@ -10,12 +10,18 @@
 </head>
 <body>
 <h1>Lab 2 Form</h1>
- <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+ <form method="post" id="form">
   <fieldset>
 	 <legend>My Users Data</legend>
-	 <div><label>Email Address: <input size="100" type="text" name="email_address"></label></div>
-	 <div><label>Phone Number: <input  size="100" type="text" name="phone_number"></label></div>
-	 <div><label>Date of Birth: <input size="100" type="text" name="date_of_birth"></label></div>
+	 <div>
+	  <label>Email Address: <input size="100" type="email" name="email_address"></label>
+	 </div>
+	 <div>
+	  <label>Phone Number: <input  size="100" type="the_digits" name="phone_number"></label>
+	 </div>
+	 <div>
+	  <label>Date of Birth: <input size="100" type="dob" name="date_of_birth"></label>
+	 </div>
   </fieldset>
 	<input type="submit">
  </form>
