@@ -1,0 +1,14 @@
+ body {
+	 margin-top: 10%;
+ }
+ 
+ h1 {
+	 text-align: center;
+	 font-size: 2em;
+ }
+ 
+ @media (max-width: 600px) {
+	 form {
+		 width: 90%
+	 }
+ }
