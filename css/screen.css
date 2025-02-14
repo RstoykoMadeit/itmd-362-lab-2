@@ -18,6 +18,18 @@
 	 max-width: 500px;
  }
  
+ #email {
+	 padding: 5px;
+ }
+ 
+ #phone {
+	 padding: 5px;
+ }
+ 
+ #dob {
+	 padding: 5px;
+ }
+ 
  @media (max-width: 600px) {
 	 form {
 		 width: 90%
